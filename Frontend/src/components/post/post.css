@@ -1,5 +1,12 @@
+main{
+  margin: 6%;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px 5px #eae9e9;
+  padding: 1%;  
+}
 .post {
   width: 300px;
+  height: 450px;
   margin: 0px 25px 40px 25px;
   background-color: #f7f7f8;
 }
