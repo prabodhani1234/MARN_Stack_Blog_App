@@ -25,7 +25,9 @@ export default function Register() {
   };
   return (
     <div className="register">
+      <div className="reg">
       <span className="registerTitle">Register</span>
+      
       <form className="registerForm" onSubmit={handleSubmit}>
         <label>Username</label>
         <input
@@ -63,6 +65,7 @@ export default function Register() {
         </Link>
       </div>
       {error && <span style={{color:"red", marginTop:"10px"}}>Something went wrong!</span>}
+      </div>
     </div>
   );
 }
