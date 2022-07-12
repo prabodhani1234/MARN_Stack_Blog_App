@@ -14,6 +14,7 @@ export default function TopBar() {
   return (
     <div className="top">
       <div className="topLeft">
+        <i className="mainName">Wanderer</i>
         <i className="topIcon fab fa-facebook-square"></i>
         <i className="topIcon fab fa-twitter-square"></i>
         <i className="topIcon fab fa-pinterest-square"></i>
