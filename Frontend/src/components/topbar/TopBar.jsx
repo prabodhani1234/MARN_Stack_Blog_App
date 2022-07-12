@@ -23,26 +23,26 @@ export default function TopBar() {
         <ul className="topList">
           <li className="topListItem">
             <Link className="link" to="/">
-              HOME
+              Home
             </Link>
           </li>
           <li className="topListItem">
             <Link className="link" to="/">
-              ABOUT
+              About
             </Link>
           </li>
           <li className="topListItem">
             <Link className="link" to="/">
-              CONTACT
+              Contact
             </Link>
           </li>
           <li className="topListItem">
             <Link className="link" to="/write">
-              WRITE
+              Write Blog
             </Link>
           </li>
           <li className="topListItem" onClick={handleLogout}>
-            {user && "LOGOUT"}
+            {user && "Logout"}
           </li>
         </ul>
       </div>
@@ -55,12 +55,12 @@ export default function TopBar() {
           <ul className="topList">
             <li className="topListItem">
               <Link className="link" to="/login">
-                LOGIN
+                Login
               </Link>
             </li>
             <li className="topListItem">
               <Link className="link" to="/register">
-                REGISTER
+                Register
               </Link>
             </li>
           </ul>
