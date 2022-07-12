@@ -46,6 +46,9 @@ export default function Sidebar() {
           <i className="sidebarIcon fab fa-pinterest-square"></i>
           <i className="sidebarIcon fab fa-instagram-square"></i>
         </div>
+        <div className="emailtext">
+          <p>wanderer@gmail.com</p>
+        </div>
       </div>
     </div>
   );
