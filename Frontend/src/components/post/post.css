@@ -47,8 +47,8 @@ main{
   font-family: "Lora", serif;
   font-style: italic;
   font-size: 13px;
-  color: #999;
-  margin-top: 15px;
+  color: rgb(137, 137, 137);
+  margin-top: 10px;
 }
 
 .postDesc {
