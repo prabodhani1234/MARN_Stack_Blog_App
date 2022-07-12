@@ -28,6 +28,8 @@
 
 .registerInput {
   padding: 10px;
+  padding-left: 10px;
+  padding-right: 50px;
   background-color: white;
   border: none;
 }
@@ -52,3 +54,4 @@
 .regtext{
   margin-top: 1.5%;
 }
+
