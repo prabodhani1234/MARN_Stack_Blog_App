@@ -29,7 +29,7 @@ export default function Sidebar() {
         </p>
       </div>
       <div className="sidebarItem">
-        <span className="sidebarSubTitel">CATEGORIES</span>
+        <span className="sidebarTitle">CATEGORIES</span>
         <ul className="sidebarList">
           {cats.map((c) => (
             <Link to={`/?cat=${c.name}`} className="link">
@@ -39,7 +39,7 @@ export default function Sidebar() {
         </ul>
       </div>
       <div className="sidebarItem">
-        <span className="sidebarSubTitel">FOLLOW US</span>
+        <span className="sidebarTitle">FOLLOW US</span>
         <div className="sidebarSocial">
           <i className="sidebarIcon fab fa-facebook-square"></i>
           <i className="sidebarIcon fab fa-twitter-square"></i>
