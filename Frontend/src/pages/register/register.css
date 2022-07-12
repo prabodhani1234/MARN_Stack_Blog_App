@@ -4,11 +4,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background: 
+    url("https://img.freepik.com/free-photo/couple-tourists-with-backpacks-mountain_1150-7520.jpg?t=st=1657649448~exp=1657650048~hmac=137c02fd7cb613371327aa5e90fa5b0ab27f556bdac299914fc2b3dbcd266a7a&w=1060");
   background-size: cover;
 }
 
