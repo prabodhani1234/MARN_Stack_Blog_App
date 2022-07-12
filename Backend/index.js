@@ -20,7 +20,7 @@ mongoose
     useCreateIndex: true
     
   })
-  .then(console.log("Connected to MongoDB"))
+  .then(console.log("Connected to MongoDB."))
   .catch((err) => console.log(err));
 
 const storage = multer.diskStorage({
