@@ -65,6 +65,10 @@ export default function Register() {
         </Link>
       </li>
       </ul>
+      <div className="topLeft">
+        <i className="topIcon fab fa-facebook-square"></i>
+        <i className="topIcon fab fa-google-plus-square"></i>
+      </div>
       {error && <span style={{color:"red", marginTop:"10px"}}>Something went wrong!</span>}
       </div>
     </div>
