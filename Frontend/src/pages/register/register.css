@@ -44,12 +44,15 @@
 .registerLoginButton {
   cursor: pointer;
   border: none;
-  padding: 10px;
+  padding: 15px;
   color: rgb(11, 10, 97);
   border-radius: 10px;
 }
 .regtext{
-  margin-top: 5%;
+  margin-top: 7%;
+}
+.regtext2{
+  margin-bottom: 5%;
 }
 
 .reg{

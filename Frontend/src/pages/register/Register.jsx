@@ -65,6 +65,7 @@ export default function Register() {
         </Link>
       </li>
       </ul>
+      <p className="regtext2">or sign up with</p>
       <div className="topLeft">
         <i className="topIcon fab fa-facebook-square"></i>
         <i className="topIcon fab fa-google-plus-square"></i>
