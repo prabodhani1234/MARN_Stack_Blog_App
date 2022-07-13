@@ -4,7 +4,13 @@
 
 .settingsWrapper {
   flex: 9;
-  padding: 20px;
+  padding: 40px;
+  margin-left: 2%;
+  margin-bottom: 22%;
+  margin-top: 2%;
+  margin-right: 2%;
+  border: none;
+  border-radius: 10px;
 }
 
 .settingsTitle {
