@@ -25,6 +25,7 @@ export default function Login() {
 
   return (
     <div className="login">
+      <div className="loginSub">
       <span className="loginTitle">Login</span>
       <form className="loginForm" onSubmit={handleSubmit}>
         <label>Username</label>
@@ -50,6 +51,7 @@ export default function Login() {
           Register
         </Link>
       </button>
+      </div>
     </div>
   );
 }
