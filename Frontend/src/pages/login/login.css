@@ -35,7 +35,7 @@
 .loginButton {
   margin-top: 20px;
   cursor: pointer;
-  background-color: lightcoral;
+  background-color: rgb(11, 10, 97);;
   border: none;
   color: white;
   border-radius: 10px;
@@ -44,7 +44,7 @@
 
 .loginButton:disabled{
   cursor: not-allowed;
-  background-color: rgb(152, 114, 114);
+  background-color: rgb(252, 173, 173);
 }
 
 .loginRegisterButton {
