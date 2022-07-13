@@ -17,6 +17,8 @@
   margin-top: 20px;
   display: flex;
   flex-direction: column;
+  font-weight: bold;
+  font-size: 17px;
 }
 
 .registerForm > label {
@@ -29,6 +31,7 @@
   padding-right: 50px;
   background-color: white;
   border: none;
+  border-radius: 5px;
 }
 
 .registerButton {
@@ -47,6 +50,7 @@
   padding: 15px;
   color: rgb(11, 10, 97);
   border-radius: 10px;
+  text-decoration: underline;
 }
 .regtext{
   margin-top: 7%;
@@ -55,17 +59,19 @@
   margin-bottom: 5%;
 }
 
-.reg{
+.allregister{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background: linear-gradient(
-      rgba(22, 20, 131, 0.5),
-      rgba(159, 28, 85, 0.5)
+      rgba(76, 83, 223, 0.5),
+      rgba(6, 8, 73, 0.5)
     );
   background-size: 100%;
   padding: 4%;
+  border: none;
+  border-radius: 10px;
   
 }
 

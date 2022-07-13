@@ -25,7 +25,7 @@ export default function Register() {
   };
   return (
     <div className="register">
-      <div className="reg">
+      <div className="allregister">
       <span className="registerTitle">Register</span>
       
       <form className="registerForm" onSubmit={handleSubmit}>
