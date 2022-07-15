@@ -1,8 +1,11 @@
 .signup_container {
 	width: 100%;
 	min-height: 91vh;
-	background: 
-    url("https://images.pexels.com/photos/2385240/pexels-photo-2385240.jpeg?cs=srgb&dl=pexels-nishant-aneja-2385240.jpg&fm=jpg");
+	background: linear-gradient(
+		rgba(255, 255, 255, 0.5),
+		rgba(255, 255, 255, 0.5)
+	  ),
+    url("https://images.pexels.com/photos/4762394/pexels-photo-4762394.jpeg?cs=srgb&dl=pexels-yaroslav-shuraev-4762394.jpg&fm=jpg");
   	background-size: cover;
 	display: flex;
 	align-items: center;
@@ -13,7 +16,6 @@
 	width: 900px;
 	height: 500px;
 	display: flex;
-	
 	border-radius: 10px;
 	box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
 		0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
@@ -25,15 +27,12 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background: linear-gradient(
-      rgba(255, 255, 255, 0.675),
-      rgba(255, 255, 255, 0.675)
-    );
-
+	background: 
+    url("https://images.pexels.com/photos/4762394/pexels-photo-4762394.jpeg?cs=srgb&dl=pexels-yaroslav-shuraev-4762394.jpg&fm=jpg");
   	background-size: cover;
-	  border-top-left-radius: 10px;
-	  border-bottom-left-radius: 10px;
-	  padding-top: 10%;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding-top: 10%;
 }
 
 .left h1 {
@@ -46,8 +45,8 @@
 .right {
 	flex: 1;
 	display: flex;
-  padding-left: 5%;
-  padding-right: 5%;
+  	padding-left: 5%;
+  	padding-right: 5%;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;

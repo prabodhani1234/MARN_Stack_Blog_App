@@ -49,19 +49,19 @@ export default function Register() {
 						<input
 							type="text"
               className="input"
-              placeholder="Enter your username..."
+              placeholder="Enter your username"
               onChange={(e) => setUsername(e.target.value)}
 						/>
 						<input
 							type="text"
               className="input"
-              placeholder="Enter your email..."
+              placeholder="Enter your email"
               onChange={(e) => setEmail(e.target.value)}
             />
 						<input
 							type="password"
               className="input"
-              placeholder="Enter your password..."
+              placeholder="Enter your password"
               onChange={(e) => setPassword(e.target.value)}
 						/>
 						
