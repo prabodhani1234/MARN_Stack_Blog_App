@@ -35,12 +35,7 @@ export default function Register() {
 							Sing in
 						</button>
 					</Link>
-          <div className="topLeft">
-              <i className="topIcon1 fab fa-facebook-square"></i>
-              <i className="topIcon1 fab fa-google-plus-square"></i>
-              <i className="topIcon1 fab fa-twitter-square"></i>
-              <i className="topIcon1 fab fa-instagram-square"></i>
-          </div>
+          
 				</div>
 				<div className="right">
         <h1 className="Topic">Create Account</h1>
@@ -71,6 +66,12 @@ export default function Register() {
 							Sing Up
 					</button>  
 					</form>
+          <div className="topLeft">
+              <i className="topIcon1 fab fa-facebook-square"></i>
+              <i className="topIcon1 fab fa-google-plus-square"></i>
+              <i className="topIcon1 fab fa-twitter-square"></i>
+              <i className="topIcon1 fab fa-instagram-square"></i>
+          </div>
 				</div>
 			</div>
 		</div>

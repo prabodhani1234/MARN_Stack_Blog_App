@@ -59,6 +59,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-top: 10%;
 }
 
 .form_container h1 {
@@ -114,7 +115,7 @@
 }
 .Topic{
   color: #edf5f3;
-  margin-bottom: 10%;
+  margin-top: 20%;
 }
 .mainText{
 	align-items: center;
@@ -127,7 +128,7 @@
 .topIcon1 {
 	font-size: 25px;
 	margin-right: 10px;
-	color:rgb(11, 5, 79);
+	color: #ffffff;
 	cursor: pointer;
   }
 
