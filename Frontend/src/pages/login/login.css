@@ -160,3 +160,13 @@
   color: #ffffff;
   text-align: justify;
 }
+
+.topIcon2 {
+	font-size: 25px;
+	margin-right: 10px;
+	color: #ffffff;
+	cursor: pointer;
+  }
+.loginI{
+  padding-left: 5%;
+}

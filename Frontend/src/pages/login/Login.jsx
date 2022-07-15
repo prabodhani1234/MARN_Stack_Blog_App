@@ -62,6 +62,12 @@ export default function Login() {
 							Sing in
 					  </button> 
           </form>
+          <div className="loginI">
+              <i className="topIcon2 fab fa-facebook-square"></i>
+              <i className="topIcon2 fab fa-google-plus-square"></i>
+              <i className="topIcon2 fab fa-twitter-square"></i>
+              <i className="topIcon2 fab fa-instagram-square"></i>
+          </div>
         </div>
       </div>
     </div>
