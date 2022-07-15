@@ -1,35 +1,105 @@
-.login {
-  height: calc(100vh - 50px);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("https://images.pexels.com/photos/697244/pexels-photo-697244.jpeg?cs=srgb&dl=pexels-helena-lopes-697244.jpg&fm=jpg");
-  background-size: cover;
+.login_container {
+  width: 100%;
+	min-height: 91vh;
+	background: linear-gradient(
+		rgba(255, 255, 255, 0.5),
+		rgba(255, 255, 255, 0.5)
+	  ),
+    url("https://images.unsplash.com/photo-1566155119454-2b581dd44c59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.login_form_container{
+  width: 900px;
+	height: 500px;
+	display: flex;
+	border-radius: 10px;
+	box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+		0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+.loginLeft{
+  flex: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: 
+    url("https://images.pexels.com/photos/4762394/pexels-photo-4762394.jpeg?cs=srgb&dl=pexels-yaroslav-shuraev-4762394.jpg&fm=jpg");
+  	background-size: cover;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding-top: 10%;
 }
 
+.loginLeft h1 {
+	margin-top: 0;
+	color: rgb(255, 255, 255);
+	font-size: 35px;
+	align-self: center;
+}
+
+.loginRight{
+  flex: 1;
+	display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(11, 5, 79);
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
 .loginTitle {
-  font-size: 50px;
+  color: #edf5f3;
+  margin-top: 20%;
+}
+.white_btn,
+.green_btn {
+	border: none;
+	outline: none;
+	padding: 13px 0;
+	background-color: rgb(11, 5, 79);
+	border-radius: 20px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #ffffff;
+	cursor: pointer;
+	margin-bottom: 50%;
 }
 
+.green_btn {
+	background-color: #ffffff;
+	color: rgb(11, 5, 79);
+	margin: 10px;
+	margin-top: 20%;
+	padding: 12px 0;
+	font-weight: bold;
+}
 .loginForm {
-  margin-top: 20px;
   display: flex;
-  flex-direction: column;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10%;
 }
-
-.loginForm > label {
-  margin: 10px 0;
+.loginForm h1 {
+	font-size: 40px;
+	margin-top: 0;
 }
 
 .loginInput {
-  padding: 10px;
-  background-color: white;
-  border: none;
+  outline: none;
+	border: none;
+	width: 220px;
+	padding: 12px;
+	border-radius: 10px;
+	background-color: #edf5f3;
+	margin: 5px 0;
+	margin-top: 7%;
+	font-size: 14px;
 }
 
 .loginButton {
@@ -72,4 +142,12 @@
   padding: 4%;
 
   
+}
+
+.mainTextLogin{
+  align-items: center;
+	text-align:center;
+	font-size: 25px;
+	margin-bottom: 8%;
+	font-weight: bold;
 }

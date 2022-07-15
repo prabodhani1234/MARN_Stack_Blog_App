@@ -24,33 +24,40 @@ export default function Login() {
   };
 
   return (
-    <div className="login">
-      <div className="loginSub">
-      <span className="loginTitle">Login</span>
-      <form className="loginForm" onSubmit={handleSubmit}>
-        <label>Username</label>
-        <input
-          type="text"
-          className="loginInput"
-          placeholder="Enter your username..."
-          ref={userRef}
-        />
-        <label>Password</label>
-        <input
-          type="password"
-          className="loginInput"
-          placeholder="Enter your password..."
-          ref={passwordRef}
-        />
-        <button className="loginButton" type="submit" disabled={isFetching}>
-          Login
-        </button>
-      </form>
-      <button className="loginRegisterButton">
+    <div className="login_container">
+      <div className="login_form_container">
+        <div className="loginLeft">
+        <div className="mainTextLogin">
+          <p >TRAVEL IS THE ONLY THING</p><p> YOU BUY THAT MAKES YOU </p><p>RICHER</p>
+        </div>
         <Link className="link" to="/register">
-          Register
-        </Link>
-      </button>
+						<button type="button" className="white_btn">
+							Sing up
+						</button>
+					</Link>
+        </div>
+        <div className="loginRight">
+        <h1 className="loginTitle">Login</h1>
+          <form className="loginForm" onSubmit={handleSubmit}>
+            <input
+              type="text"
+              className="loginInput"
+              placeholder="Enter your username..."
+              ref={userRef}
+            />
+       
+            <input
+              type="password"
+              className="loginInput"
+              placeholder="Enter your password..."
+              ref={passwordRef}
+            />
+            
+            <button type="submit" className="green_btn">
+							Sing in
+					  </button> 
+          </form>
+        </div>
       </div>
     </div>
   );
