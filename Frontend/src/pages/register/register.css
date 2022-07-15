@@ -5,7 +5,7 @@
 		rgba(255, 255, 255, 0.5),
 		rgba(255, 255, 255, 0.5)
 	  ),
-    url("https://images.pexels.com/photos/4762394/pexels-photo-4762394.jpeg?cs=srgb&dl=pexels-yaroslav-shuraev-4762394.jpg&fm=jpg");
+    url("https://images.unsplash.com/photo-1566155119454-2b581dd44c59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
   	background-size: cover;
 	display: flex;
 	align-items: center;
@@ -94,7 +94,7 @@
 .green_btn {
 	border: none;
 	outline: none;
-	padding: 12px 0;
+	padding: 13px 0;
 	background-color: rgb(11, 5, 79);
 	border-radius: 20px;
 	width: 180px;
@@ -102,7 +102,7 @@
 	font-size: 15px;
 	color: #ffffff;
 	cursor: pointer;
-	margin-bottom: 20%;
+	margin-bottom: 50%;
 }
 
 .green_btn {
@@ -121,7 +121,7 @@
 	align-items: center;
 	text-align:center;
 	font-size: 25px;
-	margin-bottom: 20%;
+	margin-bottom: 8%;
 	font-weight: bold;
 }
 
