@@ -1,92 +1,136 @@
-.register {
-  height: calc(100vh - 50px);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: 
-    url("https://img.freepik.com/free-photo/couple-tourists-with-backpacks-mountain_1150-7520.jpg?t=st=1657649448~exp=1657650048~hmac=137c02fd7cb613371327aa5e90fa5b0ab27f556bdac299914fc2b3dbcd266a7a&w=1060");
-  background-size: cover;
+.signup_container {
+	width: 100%;
+	min-height: 91vh;
+	background: 
+    url("https://images.pexels.com/photos/2385240/pexels-photo-2385240.jpeg?cs=srgb&dl=pexels-nishant-aneja-2385240.jpg&fm=jpg");
+  	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.registerTitle {
-  font-size: 50px;
+.signup_form_container {
+	width: 900px;
+	height: 500px;
+	display: flex;
+	
+	border-radius: 10px;
+	box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+		0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
 }
 
-.registerForm {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  font-weight: bold;
-  font-size: 17px;
-}
-
-.registerForm > label {
-  margin: 10px 0;
-}
-
-.registerInput {
-  padding: 10px;
-  padding-left: 10px;
-  padding-right: 50px;
-  background-color: white;
-  border: none;
-  border-radius: 5px;
-}
-
-.registerButton {
-  margin-top: 20px;
-  cursor: pointer;
-  background-color: rgb(11, 10, 97);
-  border: none;
-  color: white;
-  border-radius: 10px;
-  padding: 10px;
-}
-
-.registerLoginButton {
-  cursor: pointer;
-  border: none;
-  padding: 15px;
-  color: rgb(11, 10, 97);
-  border-radius: 10px;
-  text-decoration: underline;
-}
-.regtext{
-  margin-top: 7%;
-}
-.regtext2{
-  margin-bottom: 5%;
-}
-
-.allregister{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(
-      rgba(76, 83, 223, 0.5),
-      rgba(6, 8, 73, 0.5)
+.left {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(
+      rgba(255, 255, 255, 0.425),
+      rgba(255, 255, 255, 0.5)
     );
-  background-size: 100%;
-  padding: 4%;
-  border: none;
-  border-radius: 10px;
-  
+
+  	background-size: cover;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+  	padding-left: 10%;
+  	padding-right: 10%;
+	padding-top: 10%;
 }
 
-.topList {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.left h1 {
+	margin-top: 0;
+	color: rgb(255, 255, 255);
+	font-size: 35px;
+	align-self: center;
 }
 
-.topIcon {
-  font-size: 25px;
-  margin-right: 10px;
-  color: rgb(255, 255, 255);
-  cursor: pointer;
+.right {
+	flex: 1;
+	display: flex;
+  	padding-left: 5%;
+  	padding-right: 5%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(11, 5, 79);
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
+
+.form_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form_container h1 {
+	font-size: 40px;
+	margin-top: 0;
+}
+
+.input {
+	outline: none;
+	border: none;
+	width: 220px;
+	padding: 12px;
+	border-radius: 10px;
+	background-color: #edf5f3;
+	margin: 5px 0;
+	margin-top: 7%;
+	font-size: 14px;
+}
+
+.error_msg {
+	width: 370px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 14px;
+	background-color: #4a0505;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.white_btn,
+.green_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: rgb(11, 5, 79);
+	border-radius: 20px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #ffffff;
+	cursor: pointer;
+	margin-bottom: 20%;
+}
+
+.green_btn {
+	background-color: #ffffff;
+	color: rgb(11, 5, 79);
+	margin: 10px;
+	margin-top: 20%;
+	padding: 12px 0;
+	font-weight: bold;
+}
+.main{
+  color: #edf5f3;
+  margin-bottom: 10%;
+}
+.text{
+	align-items: center;
+	text-align:center;
+	font-size: 25px;
+	margin-bottom: 20%;
+	font-weight: bold;
+}
+
+.topIcon1 {
+	font-size: 25px;
+	margin-right: 10px;
+	color:rgb(11, 5, 79);
+	cursor: pointer;
+  }
 

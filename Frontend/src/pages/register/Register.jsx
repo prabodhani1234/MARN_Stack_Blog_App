@@ -24,54 +24,55 @@ export default function Register() {
     }
   };
   return (
-    <div className="register">
-      <div className="allregister">
-      <span className="registerTitle">Register</span>
-      
-      <form className="registerForm" onSubmit={handleSubmit}>
-        <label>Username</label>
-        <input
-          type="text"
-          className="registerInput"
-          placeholder="Enter your username..."
-          onChange={(e) => setUsername(e.target.value)}
-        />
-        <label>Email</label>
-        <input
-          type="text"
-          className="registerInput"
-          placeholder="Enter your email..."
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <label>Password</label>
-        <input
-          type="password"
-          className="registerInput"
-          placeholder="Enter your password..."
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        <button className="registerButton" type="submit">
-          Register
-        </button>
-      </form>
-      <ul className="topList">
-      <li className="regtext">
-        <p>Already have a Account ?</p>
-      </li>
-      <li className="registerLoginButton">
-        
-        <Link className="link" to="/login">
-          Login
-        </Link>
-      </li>
-      </ul>
-      <p className="regtext2">or sign up with</p>
-      <div className="topLeft">
-        <i className="topIcon fab fa-facebook-square"></i>
-        <i className="topIcon fab fa-google-plus-square"></i>
-      </div>
-      {error && <span style={{color:"red", marginTop:"10px"}}>Something went wrong!</span>}
-      </div>
-    </div>
+    <div className="signup_container">
+			<div className="signup_form_container">
+				<div className="left">
+          <div className="text">
+					<p >TRAVEL IS THE ONLY THING</p><p> YOU BUY THAT MAKES YOU </p><p>RICHER</p>
+          </div>
+					<Link to="/login">
+						<button type="button" className="white_btn">
+							Sing in
+						</button>
+					</Link>
+          <div className="topLeft">
+              <i className="topIcon1 fab fa-facebook-square"></i>
+              <i className="topIcon1 fab fa-google-plus-square"></i>
+              <i className="topIcon1 fab fa-twitter-square"></i>
+              <i className="topIcon1 fab fa-instagram-square"></i>
+          </div>
+				</div>
+				<div className="right">
+        <h1 className="main">Create Account</h1>
+					<form className="form_container" onSubmit={handleSubmit}>
+						
+						<input
+							type="text"
+              className="input"
+              placeholder="Enter your username..."
+              onChange={(e) => setUsername(e.target.value)}
+						/>
+						<input
+							type="text"
+              className="input"
+              placeholder="Enter your email..."
+              onChange={(e) => setEmail(e.target.value)}
+            />
+						<input
+							type="password"
+              className="input"
+              placeholder="Enter your password..."
+              onChange={(e) => setPassword(e.target.value)}
+						/>
+						
+          {error && <span style={{color:"red", marginTop:"10px"}}>Something went wrong!</span>}
+          
+          <button type="submit" className="green_btn">
+							Sing Up
+					</button>  
+					</form>
+				</div>
+			</div>
+		</div>
   );
 }
