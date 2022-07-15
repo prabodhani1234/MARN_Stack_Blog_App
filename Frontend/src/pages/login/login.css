@@ -153,5 +153,10 @@
 }
 .forgotPassword{
   color: #ffffff;
+  text-decoration: none;
 }
 
+.subText{
+  color: #ffffff;
+  text-align: justify;
+}

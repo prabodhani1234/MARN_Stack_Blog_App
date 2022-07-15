@@ -53,8 +53,8 @@ export default function Login() {
               placeholder="Enter your password..."
               ref={passwordRef}
             />
-            <Link className="link" to="">
-						  <p className="forgetPassword">
+            <Link to="">
+						  <p className="forgotPassword">
 							  Forgot Password ?
 						  </p>
 				    </Link> 
