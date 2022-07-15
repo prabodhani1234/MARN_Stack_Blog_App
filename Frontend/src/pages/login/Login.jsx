@@ -28,16 +28,17 @@ export default function Login() {
       <div className="login_form_container">
         <div className="loginLeft">
         <div className="mainTextLogin">
-          <p >TRAVEL IS THE ONLY THING</p><p> YOU BUY THAT MAKES YOU </p><p>RICHER</p>
+          <p >START YOUR JOURNEY BY ONE </p><p> CLICK, EXPLORE BEAUTIFUL</p><p> WORLD!</p>
         </div>
         <Link className="link" to="/register">
 						<button type="button" className="white_btn">
 							Sing up
 						</button>
-					</Link>
+				</Link>
         </div>
         <div className="loginRight">
         <h1 className="loginTitle">Login</h1>
+        <p className="subText">Welcome to Wanderer. please fill your username and passwor sign in into your account</p>
           <form className="loginForm" onSubmit={handleSubmit}>
             <input
               type="text"
@@ -52,7 +53,11 @@ export default function Login() {
               placeholder="Enter your password..."
               ref={passwordRef}
             />
-            
+            <Link className="link" to="">
+						  <p className="forgetPassword">
+							  Forgot Password ?
+						  </p>
+				    </Link> 
             <button type="submit" className="green_btn">
 							Sing in
 					  </button> 
