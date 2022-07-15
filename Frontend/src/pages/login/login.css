@@ -26,7 +26,7 @@
 	align-items: center;
 	justify-content: center;
 	background: 
-    url("https://images.pexels.com/photos/4762394/pexels-photo-4762394.jpeg?cs=srgb&dl=pexels-yaroslav-shuraev-4762394.jpg&fm=jpg");
+    url("https://images.pexels.com/photos/11724800/pexels-photo-11724800.jpeg?cs=srgb&dl=pexels-tanya-kashtanova-11724800.jpg&fm=jpg");
   	background-size: cover;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
@@ -151,3 +151,7 @@
 	margin-bottom: 8%;
 	font-weight: bold;
 }
+.forgotPassword{
+  color: #ffffff;
+}
+
