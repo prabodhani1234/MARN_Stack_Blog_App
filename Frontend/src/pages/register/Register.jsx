@@ -27,7 +27,7 @@ export default function Register() {
     <div className="signup_container">
 			<div className="signup_form_container">
 				<div className="left">
-          <div className="text">
+          <div className="mainText">
 					<p >TRAVEL IS THE ONLY THING</p><p> YOU BUY THAT MAKES YOU </p><p>RICHER</p>
           </div>
 					<Link to="/login">
@@ -43,7 +43,7 @@ export default function Register() {
           </div>
 				</div>
 				<div className="right">
-        <h1 className="main">Create Account</h1>
+        <h1 className="Topic">Create Account</h1>
 					<form className="form_container" onSubmit={handleSubmit}>
 						
 						<input
