@@ -48,7 +48,17 @@ export default function SinglePost() {
   return (
     <div className="singlePost">
       <div className="singlePostWrapper">
-        
+        <div className="singlePostInfo">
+            <span className="singlePostAuthor">
+              <Link to={`/?user=${post.username}`} className="link">
+                <b> {post.username}</b> .
+              </Link>
+            </span>
+            <span className="singlePostDate">
+              
+              {new Date(post.createdAt).toDateString()}
+            </span>
+          </div>
         {updateMode ? (
           <input
             type="text"
@@ -77,17 +87,7 @@ export default function SinglePost() {
         {post.photo && (
           <img src={PF + post.photo} alt="" className="singlePostImg" />
         )}
-        <div className="singlePostInfo">
-          <span className="singlePostAuthor">
-            Author:
-            <Link to={`/?user=${post.username}`} className="link">
-              <b> {post.username}</b>
-            </Link>
-          </span>
-          <span className="singlePostDate">
-            {new Date(post.createdAt).toDateString()}
-          </span>
-        </div>
+        
         {updateMode ? (
           <textarea
             className="singlePostDescInput"
