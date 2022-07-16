@@ -40,7 +40,7 @@
   font-size: 28px;
   text-align: center;
   border: none;
-  color: gray;
+  color: rgb(0, 0, 0);
   border-bottom: 1px solid lightgray;
 }
 
@@ -54,8 +54,9 @@
 }
 
 .singlePostIcon {
-  margin-left: 10px;
+  margin-left: 12px;
   cursor: pointer;
+
 }
 
 .singlePostIcon:first-child {
@@ -89,7 +90,7 @@
 
 .singlePostDescInput {
   border: none;
-  color: #666;
+  color: rgb(54, 54, 54);
   font-size: 18px;
   line-height: 25px;
 }
@@ -100,7 +101,7 @@
 .singlePostButton {
   width: 100px;
   border: none;
-  background-color: teal;
+  background-color: rgb(18, 9, 73);
   padding: 5px;
   color: white;
   border-radius: 5px;
