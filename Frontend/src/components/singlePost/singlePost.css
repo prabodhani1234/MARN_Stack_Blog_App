@@ -99,12 +99,12 @@
   outline: none;
 }
 .singlePostButton {
-  width: 100px;
+  width: 150px;
   border: none;
   background-color: rgb(18, 9, 73);
-  padding: 5px;
+  padding: 10px;
   color: white;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
   align-self: flex-end;
   margin-top: 20px;
