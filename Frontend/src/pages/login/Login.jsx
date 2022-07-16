@@ -31,34 +31,36 @@ export default function Login() {
           <p >START YOUR JOURNEY BY ONE </p><p> CLICK, EXPLORE BEAUTIFUL</p><p> WORLD!</p>
         </div>
         <Link className="link" to="/register">
-						<button type="button" className="white_btn">
+						<button type="button" className="loginRegiter_btn">
 							Sing up
 						</button>
 				</Link>
         </div>
         <div className="loginRight">
         <h1 className="loginTitle">Login</h1>
-        <p className="subText">Welcome to Wanderer. please fill your username and passwor sign in into your account</p>
+        <p className="subText">Welcome to Wanderer. please fill your username and password sign in into your account</p>
           <form className="loginForm" onSubmit={handleSubmit}>
             <input
               type="text"
               className="loginInput"
-              placeholder="Enter your username..."
+              placeholder="Enter your username"
               ref={userRef}
             />
        
             <input
               type="password"
               className="loginInput"
-              placeholder="Enter your password..."
+              placeholder="Enter your password"
               ref={passwordRef}
             />
-            <Link to="">
-						  <p className="forgotPassword">
+            <div className="forgotPassword_container">
+            <Link  className="forgotPassword" to="">
+						  <p >
 							  Forgot Password ?
 						  </p>
 				    </Link> 
-            <button type="submit" className="green_btn">
+            </div>
+            <button type="submit" className="login_btn">
 							Sing in
 					  </button> 
           </form>
