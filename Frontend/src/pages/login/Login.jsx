@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useContext, useRef } from "react";
+import { useContext, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../../context/Context";
 import "./login.css";
@@ -8,10 +8,12 @@ export default function Login() {
   const userRef = useRef();
   const passwordRef = useRef();
   const { dispatch, isFetching } = useContext(Context);
+  const [error, setError] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     dispatch({ type: "LOGIN_START" });
+    setError(false);
     try {
       const res = await axios.post("/auth/login", {
         username: userRef.current.value,
@@ -20,6 +22,7 @@ export default function Login() {
       dispatch({ type: "LOGIN_SUCCESS", payload: res.data });
     } catch (err) {
       dispatch({ type: "LOGIN_FAILURE" });
+      setError(true);
     }
   };
 
@@ -60,7 +63,8 @@ export default function Login() {
 						  </p>
 				    </Link> 
             </div>
-            <button type="submit" className="login_btn">
+            {error && <span style={{color:"red", marginTop:"10px"}}>Enter your username or password!</span>}
+            <button type="submit" className="login_btn" disabled={isFetching}>
 							Sing in
 					  </button> 
           </form>
