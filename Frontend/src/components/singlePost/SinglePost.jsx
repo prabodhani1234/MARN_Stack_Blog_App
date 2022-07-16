@@ -48,9 +48,7 @@ export default function SinglePost() {
   return (
     <div className="singlePost">
       <div className="singlePostWrapper">
-        {post.photo && (
-          <img src={PF + post.photo} alt="" className="singlePostImg" />
-        )}
+        
         {updateMode ? (
           <input
             type="text"
@@ -75,6 +73,9 @@ export default function SinglePost() {
               </div>
             )}
           </h1>
+        )}
+        {post.photo && (
+          <img src={PF + post.photo} alt="" className="singlePostImg" />
         )}
         <div className="singlePostInfo">
           <span className="singlePostAuthor">
