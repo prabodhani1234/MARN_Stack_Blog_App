@@ -22,7 +22,7 @@ export default function ForgotPassword() {
 						<input
 							type="text"
                             className="forgot_input"
-                            placeholder="Enter your email..."
+                            placeholder="Enter your email"
                         />
                         <button type="submit" className="forgot_btn">
 							Reovery Password
