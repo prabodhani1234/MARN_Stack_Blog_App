@@ -6,7 +6,11 @@ export default function ForgotPassword() {
             <div className="all_forgot_container">
                 <div className="forgot_left">
                     <div className="forgot_right_text">
-
+                        <p className="forgot_main_right_text">THE WORLD IS A BOOK AND THOSE WHO DON'T TRAVLE READ ONLY ONE PAGE</p>
+                        <p className="forgot_right_sub_text">Travel is a brutality. It forces you to trust strangers and to 
+                        lose sight of all that familiar comforts of home and friends. Nothing is yours except the essential 
+                        things. Air, sleep, dream the sea, the sky-all things tending towards the eternal or what we imagine of it.</p>
+                        <p className="forgot_right_auoth_text">-Cesare Pavese-</p>
                     </div>
                 </div>
                 <div className="forgot_right">
