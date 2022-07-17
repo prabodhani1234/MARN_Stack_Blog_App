@@ -57,7 +57,7 @@ export default function Login() {
               ref={passwordRef}
             />
             <div className="forgotPassword_container">
-            <Link  className="forgotPassword" to="">
+            <Link  className="forgotPassword" to="/forgotPassword">
 						  <p >
 							  Forgot Password ?
 						  </p>
