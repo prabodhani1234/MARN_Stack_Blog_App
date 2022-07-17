@@ -25,7 +25,7 @@ export default function ForgotPassword() {
                             placeholder="Enter your email..."
                         />
                         <button type="submit" className="forgot_btn">
-							Sing Up
+							Reovery Password
 					    </button>  
 					</form>
                 </div>    
