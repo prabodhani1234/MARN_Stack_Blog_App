@@ -1,3 +1,5 @@
+import "./forgotpassword.css";
+
 export default function ForgotPassword() {
     return(
         <div className="forgot_container">
