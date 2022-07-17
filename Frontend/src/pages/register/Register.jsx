@@ -66,7 +66,7 @@ export default function Register() {
 							Sing Up
 					</button>  
 					</form>
-          <div className="topLeft">
+          <div className="registarI">
               <i className="topIcon1 fab fa-facebook-square"></i>
               <i className="topIcon1 fab fa-google-plus-square"></i>
               <i className="topIcon1 fab fa-twitter-square"></i>

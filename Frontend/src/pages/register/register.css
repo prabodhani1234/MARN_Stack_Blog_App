@@ -32,14 +32,7 @@
   	background-size: cover;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
-	padding-top: 10%;
-}
-
-.left h1 {
-	margin-top: 0;
-	color: rgb(255, 255, 255);
-	font-size: 35px;
-	align-self: center;
+	padding-top: 2%;
 }
 
 .right {
@@ -115,13 +108,12 @@
 }
 .Topic{
   color: #edf5f3;
-  margin-top: 20%;
 }
 .mainText{
 	align-items: center;
 	text-align:center;
 	font-size: 25px;
-	margin-bottom: 8%;
+	margin-bottom: 10%;
 	font-weight: bold;
 }
 
@@ -131,4 +123,7 @@
 	color: #ffffff;
 	cursor: pointer;
   }
-
+.registarI{
+	padding-left: 5%;
+  	margin-top: 4%;
+}
