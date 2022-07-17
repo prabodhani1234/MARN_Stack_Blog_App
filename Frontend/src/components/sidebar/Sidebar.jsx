@@ -17,8 +17,8 @@ export default function Sidebar() {
     <div className="sidebar">
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT US</span>
-        <img
-          src="https://i.pinimg.com/236x/1e/3f/58/1e3f587572a7a7b20bbf1828595a1786--holiday-party-themes-holiday-gift-guide.jpg"
+        <img className="mainimg"
+          src="https://cutewallpaper.org/26/adventure-awaits-laptop-wallpaper/241222593.jpg"
           alt=""
         />
         <p>
