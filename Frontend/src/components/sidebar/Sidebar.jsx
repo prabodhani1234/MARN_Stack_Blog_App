@@ -16,7 +16,7 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebarItem">
-        <span className="sidebarTitle">ABOUT US</span>
+        <span className="sidebarTitle">ABOUT</span>
         <img className="mainimg"
           src="https://w0.peakpx.com/wallpaper/112/494/HD-wallpaper-zen-stone-beach-sea-sun.jpg"
           alt=""
