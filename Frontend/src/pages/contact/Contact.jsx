@@ -11,7 +11,20 @@ export default function Contact() {
             <div className="all_contact_container">
                 <div className="contact_left">
                     <div className="contact_left_text">
-                       
+                       <h2>Contact Infromation</h2>
+                       <p style={{marginTop:"10px"}}>Fill up to form and our team will get back to you within 24 hours</p>
+                    </div>
+                    <div className="c_Icons">
+                        <i className="c_Icon fas fa-phone"></i>
+                        <i className="c_Icon far fa-envelope"></i>
+                        <i className="c_Icon fab fa-twitter"></i>
+                        <i className="c_Icon fab fa-instagram"></i>
+                    </div>
+                    <div className="infor_icons">
+                        <i className="infor_Icon">+94 77 852 7896</i>
+                        <i className="infor_Icon"> wanderer@gmail.com</i>
+                        <i className="infor_Icon">http://twitter.com/wanderer</i>
+                        <i className="infor_Icon">@wanderer</i>
                     </div>
                 </div>
                 <div className="contact_right">
@@ -22,7 +35,7 @@ export default function Contact() {
                             className="contact_input"
                             placeholder="Name"
                         />
-                        <label className="lable2">Email</label>
+                        <label className="lable1">Email</label>
                         <input
 							type="text"
                             className="contact_input"
