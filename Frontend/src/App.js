@@ -10,6 +10,7 @@ import { useContext } from "react";
 import { Context } from "./context/Context";
 import ForgotPassword from "./pages/forgotPassword/ForgotPassword";
 import Contact from "./pages/contact/Contact";
+import About from "./pages/about/About";
 
 function App() {
   const { user } = useContext(Context);
@@ -22,6 +23,7 @@ function App() {
         </Route>
         <Route path="/register">{user ? <Home /> : <Register />}</Route>
         <Route path="/login">{user ? <Home /> : <Login />}</Route>
+        <Route path="/login">{user ? <Home /> : <About/> }</Route>
         <Route path="/contact">{user ? <Home /> : <Contact/> }</Route>
         <Route path="/forgotPassword">{user ?<Login/> : <ForgotPassword/>}</Route>
         <Route path="/write">{user ? <Write /> : <Register />}</Route>
