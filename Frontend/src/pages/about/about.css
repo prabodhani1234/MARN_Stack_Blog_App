@@ -1,70 +1,60 @@
 .about_container {
 	width: 100%;
-	min-height: 91vh;
-	background:
-    url("https://images.unsplash.com/photo-1471879732709-acf476018742?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80");
+	min-height: 81vh;
+	background-color: rgb(254, 253, 253);
   	background-size: cover;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .all_about_container {
-	width: 900px;
-	height: 500px;
+	width: 450px;
+	height: 450px;
 	display: flex;
-	
+	margin-left: 10%;
 	border-radius: 10px;
 	box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
 		0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
 }
+.topic_about{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+    color: rgb(11, 5, 79);
+}
 .about_left {
-	flex: 3;
+	flex: 2;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background:linear-gradient(
-        rgba(255, 255, 255, 0.425),
-        rgba(255, 255, 255, 0.5)
-    );
+	background:
+    url("https://res.cloudinary.com/worldpackers/image/upload/c_fill,f_auto,q_auto,w_1024/v1/guides/article_cover/c7c4elegquhjubd1xmyb");
   	background-size: cover;
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
+	border-radius: 10px;
   	padding-left: 0%;
   	padding-right: 0%;
 	padding-top: 10%;
 }
 
 .about_right {
-	flex: 2;
+	flex: 3;
 	display: flex;
-  	padding-left: 2%;
-  	padding-right: 2%;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: rgb(18, 9, 73);
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
+    margin-right: 10%;
 }
 
 .about-main_text{
-  color: #edf5f3;
-  margin-bottom: 10%;
+  color: #2e2e2e;
+  margin-bottom: 20px;
 }
 .text1{
- color: #ffffff;
- font-size: 17px;
+ color: #2e2e2e;
+ font-size: 19px;
  text-align: center;
-}
-.text2{
-    color: #ffffff;
-    font-size: 15px;
-    text-align: center;
-    padding-top: 30px;
-}
-.text3{
-    color: #ffffff;
-    text-align: center;
-    padding-top: 12px;
+ padding-left: 100px;
+ padding-right: 100px;
+ font-weight: 30px;
 }
