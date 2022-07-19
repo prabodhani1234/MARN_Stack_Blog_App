@@ -15,7 +15,9 @@ export default function About() {
                         A large group of tourists have joined us now. Our aim is to provide knowledge about the world's most
                          dangerous places to the people who cannot contact us</p>
                     </div> 
-                      
+                    <button type="submit" className="about_btn">
+							Learn More
+					</button>   
                 </div>
             </div>
             </div>
