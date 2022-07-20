@@ -31,14 +31,14 @@ export default function Login() {
     <div className="login_container">
       <div className="login_form_container">
         <div className="loginLeft">
-        <div className="mainTextLogin">
-          <p >START YOUR JOURNEY BY ONE </p><p> CLICK, EXPLORE BEAUTIFUL</p><p> WORLD!</p>
-        </div>
-        <Link className="link" to="/register">
+          <div className="mainTextLogin">
+            <p >START YOUR JOURNEY BY ONE </p><p> CLICK, EXPLORE BEAUTIFUL</p><p> WORLD!</p>
+          </div>
+          <Link className="link" to="/register">
 						<button type="button" className="loginRegiter_btn">
 							Sing up
 						</button>
-				</Link>
+				  </Link>
         </div>
         <div className="loginRight">
         <h1 className="loginTitle">Login</h1>
@@ -58,11 +58,11 @@ export default function Login() {
               ref={passwordRef}
             />
             <div className="forgotPassword_container">
-            <Link  className="forgotPassword" to="/forgotPassword">
-						  <p >
-							  Forgot Password ?
-						  </p>
-				    </Link> 
+              <Link  className="forgotPassword" to="/forgotPassword">
+                <p >
+                  Forgot Password ?
+                </p>
+				      </Link> 
             </div>
             {error && <span style={{color:"red", marginTop:"10px"}}>Enter your username or password!</span>}
             <button type="submit" className="login_btn" disabled={isFetching}>
